@@ -6,22 +6,22 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Objetivos alcanzados y conocimientos adquiridos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Creación del proyecto con Angular y conocer el CLI (Instalar TailwindCSS, configuración inicial Angular...)
+- Creación de componentes y uso de componentes
+- Asignación de rutar y uso del RouterOutlet
+- Acceso a datos del componente vía Property Binding
+- Creación de formularios reactivos usando módulos de Angular
+- Gestión de validaciones de los formularios
+- Event Handling para la gestión de formularios
+- Control Flow en componentes con directivas de Angular (@if @else)
 
-## Build
+## TODO
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Aplicación de buenas prácticas: mejorar estructura de la aplicación ya que ahora mismo es poco escalable y seguramente difícil de mantener
+- Hacer énfasis en los tipados
+- Mejorar feedback visual al usuario (input email, mejorar css del submit button al estar disable)
+- Testing
+- Uso del módulo http para aprender a gestionar llamadas a API's
+- Mejorar el uso de Git
