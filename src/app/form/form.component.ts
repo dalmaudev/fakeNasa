@@ -21,9 +21,9 @@ export class FormComponent {
   });
 
   handleSubmit() {
-    alert(`Datos enviado:
-      correo: correo
-      githubuser: githubuser
+    alert(`Datos enviados:
+      email: ${this.profileForm.value.email}
+      githubuser: ${this.profileForm.value.githubuser}
       `);
   }
 }
